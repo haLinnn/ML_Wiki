@@ -1,5 +1,5 @@
 # 슈퍼히어로 데이터로 보는 군집화 알고리즘 비교
-- Member: 머신러닝 위키 팀
+- Member: deep daiv. 머신러닝 위키 팀
 - Status: Complete
 - Tag: Project
 
