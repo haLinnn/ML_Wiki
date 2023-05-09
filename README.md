@@ -41,7 +41,7 @@
 
 데이터 결측치 및 이상치 제거, MinMax 스케일링 등의 전처리를 한 후 데이터의 분포를 시각화하기 위해 PCA를 사용하여 2차원으로 차원 축소
 
-<p align="center"><img src="https://github.com/haLinnn/ML_Wiki/assets/108817458/d134d61c-6633-4c49-b720-aa7a6320a4ff" weight=800 height=600/></p>
+<p align="center"><img src="https://github.com/haLinnn/ML_Wiki/assets/108817458/d134d61c-6633-4c49-b720-aa7a6320a4ff"/></p>
 
 
 ## 5. K-Means 군집 분석
@@ -50,26 +50,25 @@
 
 - 최적의 k값을 찾기 위해 Elbow method를 적용
 
-    ![Untitled](https://github.com/haLinnn/ML_Wiki/assets/108817458/243a5a25-dc6b-4438-a836-b0ffa6820285)
+    <p align="center"><img src="https://github.com/haLinnn/ML_Wiki/assets/108817458/01232bee-b5cf-40bf-99c5-f00c2b977554"/></p>
     
 - 실루엣 계수 비교
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3b9de5ed-ac1e-42d1-aba2-1c5d05e1f1d6/Untitled.png)
+
+    <p align="center"><img src="https://github.com/haLinnn/ML_Wiki/assets/108817458/07ad0ad5-ada7-42a0-932f-b713043135bb"/></p>
     
 - KElbowVisualizer를 사용하여 최적의 k값 선정
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cbf511f5-4d35-40e2-8521-b57156ca63fc/Untitled.png)
-    
+
+    <p align="center"><img src="https://github.com/haLinnn/ML_Wiki/assets/108817458/93ec59d0-c2e2-4472-a21e-bd3fc0ae8175"/></p>
 
 ### 5.2. 군집별 시각화
 
 - SilhouetteVisualizer를 통한 시각화
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a07fce9f-30cc-4c49-8b01-38e75f3cee4c/Untitled.png)
-    
+
+    <p align="center"><img src="https://github.com/haLinnn/ML_Wiki/assets/108817458/f7bde506-2e7b-4eb3-a69b-d37c8a0435ae"/></p>
+ 
 - scatter plot을 통한 군집별 시각화
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ccbc5540-3ff3-4ce6-a7c2-c59752df281c/Untitled.png)
+    <p align="center"><img src="https://github.com/haLinnn/ML_Wiki/assets/108817458/f09e8a2f-3de5-43f1-8258-d7f8f799ffe1"/></p>
 
 ## 6. 결과
 
@@ -79,7 +78,7 @@
 
 다음은 아이언맨 군집과 캡틴아메리카 군집의 평균 능력치를 시각화한 결과입니다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ca5a68a0-5fc2-439a-89c0-7deb3c1e89ac/Untitled.png)
+<p align="center"><img src="https://github.com/haLinnn/ML_Wiki/assets/108817458/015aaa59-d3a5-4d3d-8172-0f3e55503015"/></p>
 
 위 결과를 통해 아이언맨 군집이 캡틴 아메리카 군집보다 대체적으로 높은 능력치를 가지고 있음을 알 수 있습니다.
 
@@ -87,11 +86,12 @@
 
 아이언맨의 대체 히어로 후보는 아이언맨과 같은 1번 군집에 속한 히어로들입니다. 예로는 A-Bomb, Abomination, Wonder Woman 등이 있습니다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f716f856-4429-4123-a85e-ee26673a3f7a/Untitled.png)
+<p align="center"><img src="https://github.com/haLinnn/ML_Wiki/assets/108817458/aa7a930c-4a56-499e-84e1-1b3f7fc5efd6"/></p>
+
 
 캡틴 아메리카의 대체 히어로 후보는 캡틴 아메리카과 같은 0번 군집에 속한 히어로들입니다. 예로는 Aayla Secura, Yondu 등이 있습니다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ff50cfeb-1982-4d49-b420-fbf45a5a4765/Untitled.png)
+<p align="center"><img src="https://github.com/haLinnn/ML_Wiki/assets/108817458/fe28df03-9708-4281-9448-354e9a6e4d1d"/></p>
 
 
 
