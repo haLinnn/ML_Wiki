@@ -23,7 +23,7 @@
 3. **‘아이언맨’, ‘캡틴 아메리카’가 속한 군집 내 대체 가능한 슈퍼히어로 선정**
 
 ## 3. 데이터 소개
-- Kaggle의 Kaggle의 Superheroes NLP Dataset
+- Kaggle의 Superheroes NLP Dataset
 - 81개의 컬럼 중 분석에 필요한 8개의 컬럼만 사용
 
 |Feature|Type|Description|
